@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>File Upload Exercise</title>
+ </head>
+ <body>
+   <form method="POST" action="/api" enctype="multipart/form-data">
+       <div>
+           <label>Select image:</label>
+           <input type="file" name="image" multiple/>
+       </div>
+       <div>
+           <input type="submit" value="Upload" />
+       </div>
+   </form>
+   <br />
+   <hr />
+ </body>
+</html>
