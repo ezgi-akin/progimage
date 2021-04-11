@@ -29,6 +29,16 @@ This is an image upload and transformation API case study.
 
   Get image by ID and filter. Filter values: srgb, rgb, cmyk, lab, b-w.  Returns image. 
   
-  ### Heroku API
+
+### Heroku API
   
-  https://progimageapi.herokuapp.com/
+  Sample Upload Client https://progimageapi.herokuapp.com/
+  
+  POST https://progimageapi.herokuapp.com/api
+  
+  GET https://progimageapi.herokuapp.com/api/20.png
+  
+  GET https://progimageapi.herokuapp.com/api/20?resize=100
+  
+  GET https://progimageapi.herokuapp.com/api/20/rotate/90
+  
